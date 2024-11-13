@@ -68,6 +68,7 @@ body{
 .quote-box button{
     background: rgb(23,124,229);
     color: #fff;
+    font-weight: 700;
     border-radius: 25px;
     border: 1px solid rgb(23,124,229);
     width: 150px;
@@ -77,4 +78,8 @@ body{
     justify-content: center;
     margin: 5px;
     cursor: pointer;
+}
+.quote-box button:hover{
+    background: rgb(0, 99, 205);
+    transform: scale(1.02);
 }

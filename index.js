@@ -153,7 +153,6 @@ let quote=document.querySelector(".quote")
 let author=document.querySelector(".author")
 btn.addEventListener("click",function(){
     let random=Math.floor(Math.random()*quotes.length)
-    
     quote.innerHTML=quotes[random].quote
     author.innerHTML=quotes[random].author
 })
